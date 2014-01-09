@@ -21,6 +21,8 @@
 		0080B708187E77FD00B4F1C3 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0080B6EA187E77FD00B4F1C3 /* UIKit.framework */; };
 		0080B710187E77FD00B4F1C3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0080B70E187E77FD00B4F1C3 /* InfoPlist.strings */; };
 		0080B712187E77FD00B4F1C3 /* ThreeRestaurantTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0080B711187E77FD00B4F1C3 /* ThreeRestaurantTests.m */; };
+		0080B71D187E794F00B4F1C3 /* Member.m in Sources */ = {isa = PBXBuildFile; fileRef = 0080B71C187E794F00B4F1C3 /* Member.m */; };
+		0080B720187E9D8F00B4F1C3 /* Restaurant.m in Sources */ = {isa = PBXBuildFile; fileRef = 0080B71F187E9D8F00B4F1C3 /* Restaurant.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,10 @@
 		0080B70D187E77FD00B4F1C3 /* ThreeRestaurantTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ThreeRestaurantTests-Info.plist"; sourceTree = "<group>"; };
 		0080B70F187E77FD00B4F1C3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0080B711187E77FD00B4F1C3 /* ThreeRestaurantTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThreeRestaurantTests.m; sourceTree = "<group>"; };
+		0080B71B187E794F00B4F1C3 /* Member.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Member.h; sourceTree = "<group>"; };
+		0080B71C187E794F00B4F1C3 /* Member.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Member.m; sourceTree = "<group>"; };
+		0080B71E187E9D8F00B4F1C3 /* Restaurant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Restaurant.h; sourceTree = "<group>"; };
+		0080B71F187E9D8F00B4F1C3 /* Restaurant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Restaurant.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +125,10 @@
 				0080B6FC187E77FD00B4F1C3 /* ViewController.m */,
 				0080B6FE187E77FD00B4F1C3 /* Images.xcassets */,
 				0080B6ED187E77FD00B4F1C3 /* Supporting Files */,
+				0080B71B187E794F00B4F1C3 /* Member.h */,
+				0080B71C187E794F00B4F1C3 /* Member.m */,
+				0080B71E187E9D8F00B4F1C3 /* Restaurant.h */,
+				0080B71F187E9D8F00B4F1C3 /* Restaurant.m */,
 			);
 			path = ThreeRestaurant;
 			sourceTree = "<group>";
@@ -250,8 +260,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0080B6FD187E77FD00B4F1C3 /* ViewController.m in Sources */,
+				0080B720187E9D8F00B4F1C3 /* Restaurant.m in Sources */,
 				0080B6F7187E77FD00B4F1C3 /* AppDelegate.m in Sources */,
 				0080B6F3187E77FD00B4F1C3 /* main.m in Sources */,
+				0080B71D187E794F00B4F1C3 /* Member.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
